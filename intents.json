@@ -52,8 +52,8 @@
         "Are you cash only?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept VISA, Mastercard, and Paypal",
+        "We accept most major credit cards and Paypal"
       ]
     },
     {
@@ -78,6 +78,175 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Can I track my order?",
+        "Where is my package?",
+        "How do I check my order status?"
+      ],
+      "responses": [
+        "You can track your order by logging into your account",
+        "Once your order ships, you'll receive a tracking number via email"
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What's your return policy?",
+        "Can I return items?",
+        "How do I make a return?"
+      ],
+      "responses": [
+        "We offer a 30-day return policy for most items. Please check our Returns page for details.",
+        "You can initiate a return request through your account dashboard."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you offer discounts?",
+        "Are there any promotions?",
+        "How can I get a discount?"
+      ],
+      "responses": [
+        "Yes, we frequently offer discounts and promotions. Check our Promotions page for current offers.",
+        "Sign up for our newsletter to receive exclusive discounts and promotions."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "How can I contact customer support?",
+        "I need help with my order",
+        "Can I speak with a representative?"
+      ],
+      "responses": [
+        "You can reach our customer support team via email at support@example.com or by phone at 1-800-123-4567.",
+        "Our customer support representatives are available to assist you Monday through Friday, 9 am to 5 pm."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Help me",
+        "Can you assist me?",
+        "I'm confused"
+      ],
+      "responses": [
+        "Of course, I'm here to help. What do you need assistance with?",
+        "Sure, what do you need help with?"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "Can I search for products?",
+        "How do I find a specific item?",
+        "Where can I search for products?"
+      ],
+      "responses": [
+        "You can use the search bar at the top of the page to find products.",
+        "You can search for products by entering keywords in the search bar."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is this item in stock?",
+        "Do you have this product available?",
+        "Is this product currently available?"
+      ],
+      "responses": [
+        "Let me check the availability for you.",
+        "One moment while I verify the availability of the product."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "Can you recommend a product?",
+        "What's popular right now?",
+        "Any recommendations?"
+      ],
+      "responses": [
+        "Sure, let me suggest a popular product for you.",
+        "Based on your preferences, I recommend the following product."
+      ]
+    },
+    {
+      "tag": "account",
+      "patterns": [
+        "How do I create an account?",
+        "Can I sign up?",
+        "Where do I register?"
+      ],
+      "responses": [
+        "You can create an account by clicking on the 'Sign Up' button at the top of the page.",
+        "To register, click on the 'Register' link on the homepage."
+      ]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "How do I log in?",
+        "Where is the login page?",
+        "Can I sign in?"
+      ],
+      "responses": [
+        "You can log in by clicking on the 'Log In' button at the top of the page.",
+        "To access your account, click on the 'Sign In' link on the homepage."
+      ]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": [
+        "I forgot my password",
+        "Can I reset my password?",
+        "How do I recover my password?"
+      ],
+      "responses": [
+        "No problem, you can reset your password by clicking on the 'Forgot Password' link on the login page.",
+        "To recover your password, click on the 'Forgot Password' link and follow the instructions."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Can I provide feedback?",
+        "How do I give feedback?",
+        "Do you welcome feedback?"
+      ],
+      "responses": [
+        "We appreciate your feedback! You can leave your comments and suggestions on our Feedback page.",
+        "We value your feedback. Feel free to share your thoughts with us on our Feedback page."
+      ]
+    },
+    {
+      "tag": "privacy",
+      "patterns": [
+        "What's your privacy policy?",
+        "How do you handle my data?",
+        "Is my information safe?"
+      ],
+      "responses": [
+        "You can find our privacy policy on the Privacy Policy page. We take your privacy and data security seriously.",
+        "We prioritize the security and privacy of your information. Our privacy policy details how we handle your data."
+      ]
+    },
+    {
+      "tag": "terms",
+      "patterns": [
+        "What are your terms and conditions?",
+        "Where can I find your terms of service?",
+        "Do you have terms of use?"
+      ],
+      "responses": [
+        "Our terms and conditions can be found on the Terms of Service page. Please review them before using our website.",
+        "You can read our terms of service on the Terms and Conditions page. It's important to understand our terms before using our services."
       ]
     }
   ]
